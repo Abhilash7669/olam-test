@@ -4,8 +4,23 @@
     box-sizing: border-box;
 }
 
+#wa-widget-send-button > div {
+    font-family: maison-neue-mono;
+    text-underline-position: auto !important;
+}
+.maison-neue {
+    font-family: maison-neue-mono;
+}
 
+/* font-faces */
+/* maison-neue-mono */
 
+@font-face {
+    font-family: maison-neue-mono;
+    src: url(../assets/fonts/maison-neue-mono-reg.woff2);
+}
+
+/* --- */
 @font-face {
     font-family: gn-bold;
     src: url(../assets/fonts/gn-bold.woff2);
@@ -237,7 +252,10 @@ label {
     right: 0;
 }
 
-
+.under-line {
+    text-decoration: underline !important;
+    color: white;
+}
 
 .btnTickets {
     padding: 2.1rem 1rem 2.1rem 1rem; 
